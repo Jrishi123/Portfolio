@@ -21,7 +21,7 @@ export default function Contact() {
       setLoading(true)
 
       await axios.post(
-        'http://portfolio-bsww.onrender.com/api/contact',
+        `${process.env.NEXT_PUBLIC_API_URL}/api/contact`,
         form
       )
 
