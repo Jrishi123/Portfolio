@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Mac files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# MLflow
+mlruns/
+
+# Build files
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Terraform
+.terraform/
+*.tfstate
+
+# Kubernetes
+kubeconfig
+
+# Coverage
+coverage/
+
+# Misc
+.cache/
