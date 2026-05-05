@@ -9,7 +9,7 @@ export default function Projects() {
   }, [])
 
   const fetchProjects = async () => {
-    const res = await axios.get('http://localhost:5001/api/projects')
+    const res = await axios.get('http://portfolio-bsww.onrender.com/api/projects')
     setProjects(res.data)
   }
 
